@@ -436,3 +436,13 @@ def string_length():
         count += 1
 
     print("The length of the entered string is:", count)
+
+def convertbinoct (num,base=2):
+    str1= " "
+    while  num   !=0 :
+         str1= str1+ str(num%base)
+         num= num//base
+       
+    str1=  str1[ : :-1]
+    print(str1)
+
